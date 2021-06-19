@@ -14,6 +14,7 @@ import { MatListModule } from '@angular/material/list';
 import { HomePageComponent } from './components/home-page/home-page.component';
 import { OrixasPageComponent } from './components/orixas-page/orixas-page.component';
 import { AtendimentoPageComponent } from './components/atendimento-page/atendimento-page.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { AtendimentoPageComponent } from './components/atendimento-page/atendime
     MatButtonModule,
     MatSidenavModule,
     MatIconModule,
-    MatListModule
+    MatListModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
